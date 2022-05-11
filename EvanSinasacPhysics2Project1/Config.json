@@ -1,0 +1,86 @@
+{
+  "Cannon": {
+    "YawMax": 225.0,
+    "YawMin": 135.0,
+    "PitchMax": 158.0,
+    "PitchMin": 90.0,
+    "XPosition": 0.0,
+    "YPosition": 1.9,
+    "ZPosition": 0.0
+  },
+  "Bullet": {
+    "Size": 2.0,
+    "Damping": 0.995,
+    "Mass": 20.0,
+    "MuzzleVelocity": 20.0,
+    "LifeSpan":  10.0
+  },
+  "Laser": {
+    "Size": 1.0,
+    "Damping": 0.995,
+    "Mass": 100.0,
+    "MuzzleVelocity": 20.0,
+    "LifeSpan": 20.0
+  },
+  "Target": {
+    "Restitution": 0.4,
+    "Radius": 5.0,
+    "StartPos": {
+      "X": 0.0,
+      "Y": 20.0,
+      "Z": 20.0
+    }
+  },
+  "HangingChainEntity": {
+    "Comment": "NumOfJoints should ALWAYS be 1 more than NumOfConstraints",
+    "NumOfJoints": 4,
+    "NumOfConstraints": 3,
+    "JointRadius": 0.1,
+    "JointRestitution": 0.9,
+    "DistBetweenJoints": 2.5,
+    "StartPos": {
+      "X": 10.0,
+      "Y": 15.0,
+      "Z": 10.0
+    },
+    "TargetRadius": 1.0
+  },
+  "BoxEntity": {
+    "JointRadius": 0.5,
+    "DistBetweenJoints": 2.0,
+    "JointRestitution": 0.01,
+    "StartPos": {
+      "X": -10.0,
+      "Y": 3.0,
+      "Z": 5.0
+    }
+  },
+  "SpinningBlade": {
+    "JointRadius": 0.5,
+    "DistFromStart": 2.5,
+    "Restitution": 0.7,
+    "StartPos": {
+      "X": -10.0,
+      "Y": 5.0,
+      "Z": -5.0
+    },
+    "LockedAxis": "Y"
+  },
+  "SpringParticle": {
+    "StartPos": {
+      "X": 10.0,
+      "Y": 5.0,
+      "Z": -10.0
+    },
+    "AnchorPos": {
+      "X": 10.0,
+      "Y": 5.0,
+      "Z": -5.0
+    },
+    "Radius": 0.8,
+    "SpringConstant": 2000.0,
+    "RestLength": 10.0,
+    "Restitution": 0.1
+  },
+  "NumberOfMeshesWithoutHC": 20
+}

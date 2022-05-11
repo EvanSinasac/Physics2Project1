@@ -1,0 +1,14 @@
+ModelFileName(extension) Position(x,y,z) Orientation(x,y,z) Scale(x,y,z) Colour(r,g,b,a) Light TextureOp TextureName1 Ratio1 TextureName2 Ratio2 TextureName3 Ratio3 DiscardTexture
+Camera(x,y,z) 0 15 -30
+
+0
+
+SM_Env_Floor_01_xyz_n_rgba_uv.ply 2.5 0 -17.5 0.0 0.0 0.0 1 1 1 0.88 0.88 0.88 1 1 1 SpaceInteriors_Texture.bmp 1 null 0 null 0 null
+
+SM_Env_Floor_01_xyz_n_rgba_uv.ply 25 0 -25 0 0 0 10 2 10 0.88 0.88 0.88 0.5 1 1 SpaceInteriors_Texture.bmp 1 null 0 null 0 null
+SM_Env_Construction_Wall_01_xyz_n_rgba_uv.ply -25 0 25 0 90 0 5 0.5 0.5 0.88 0.88 0.88 1 1 1 SpaceInteriors_Texture.bmp 1 null 0 null 0 null
+SM_Env_Construction_Wall_01_xyz_n_rgba_uv.ply 25 0 -25 0 270 0 5 0.5 0.5 0.88 0.88 0.88 1 1 1 SpaceInteriors_Texture.bmp 1 null 0 null 0 null
+SM_Env_Construction_Wall_01_xyz_n_rgba_uv.ply -25 0 -25 0 0 0 5 0.5 0.5 0.88 0.88 0.88 1 1 1 SpaceInteriors_Texture.bmp 1 null 0 null 0 null
+SM_Env_Construction_Wall_01_xyz_n_rgba_uv.ply 25 0 25 0 180 0 5 0.5 0.5 0.88 0.88 0.88 1 1 1 SpaceInteriors_Texture.bmp 1 null 0 null 0 null
+
+end

@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Config JSON">
+      <UniqueIdentifier>{bb5f473e-8660-402c-9dd1-ef12df62599d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{35c78b4c-499d-4990-848b-f6a4c2107cf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{2a9f17dc-5845-4b17-bdc2-7a3f07c6f815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light Manager">
+      <UniqueIdentifier>{e890b218-8e0d-40eb-ac53-ab9d84a66b79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes">
+      <UniqueIdentifier>{397fe167-07be-496e-8e00-bee65b727ccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Manager">
+      <UniqueIdentifier>{dcaa5d9b-5bd1-4374-ac47-5123d02d03a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture Manager">
+      <UniqueIdentifier>{05ed7a2b-bde8-46af-ac0a-7a48769ff852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes\VAO Manager">
+      <UniqueIdentifier>{5389df58-21f9-4c8a-a00c-4144fc7a838c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Manager\Shaders">
+      <UniqueIdentifier>{b21a1c9b-81c1-49c6-bc84-e1cf66ac9c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics Rigidbody">
+      <UniqueIdentifier>{ec43af0c-a679-4ff7-af12-4381f543e2b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics Particles">
+      <UniqueIdentifier>{3ed429ee-037b-4be6-8a36-75d540fed059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics Particles\Entities">
+      <UniqueIdentifier>{36b4e1e9-fc57-434e-8dba-36f8251d7d5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics Particles\Shots">
+      <UniqueIdentifier>{786bb019-98ec-441a-97fb-70ebeecffaa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics Rigidbody\Entities">
+      <UniqueIdentifier>{9bcb43f2-e296-4657-b2f8-2bafa51998bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cConfigReaderJSON.cpp">
+      <Filter>Config JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="globalThings.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Shutdown.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="StartUp.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="cGLFWKeyboadModifiers.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW_error_callback.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW_key_callback.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandling.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightHelper.cpp">
+      <Filter>Light Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightManager.cpp">
+      <Filter>Light Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cVAOManager.cpp">
+      <Filter>Meshes\VAO Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cMesh.cpp">
+      <Filter>Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoxEntity.cpp">
+      <Filter>Physics Particles\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="cHangingChainEntity.cpp">
+      <Filter>Physics Particles\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="cSpinningBladeEntity.cpp">
+      <Filter>Physics Particles\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="cSpringParticle.cpp">
+      <Filter>Physics Particles\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="cTarget.cpp">
+      <Filter>Physics Particles\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet.cpp">
+      <Filter>Physics Particles\Shots</Filter>
+    </ClCompile>
+    <ClCompile Include="cCannonShot.cpp">
+      <Filter>Physics Particles\Shots</Filter>
+    </ClCompile>
+    <ClCompile Include="cLaser.cpp">
+      <Filter>Physics Particles\Shots</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\cParticle.cpp">
+      <Filter>Physics Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\cParticleContact.cpp">
+      <Filter>Physics Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\cParticleContactResolver.cpp">
+      <Filter>Physics Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\cParticleForceRegistry.cpp">
+      <Filter>Physics Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\cParticleWorld.cpp">
+      <Filter>Physics Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\particle_constraints.cpp">
+      <Filter>Physics Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\particle_contact_generators.cpp">
+      <Filter>Physics Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\random_helpers.cpp">
+      <Filter>Physics Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="cShader.cpp">
+      <Filter>Shader Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cShaderManager.cpp">
+      <Filter>Shader Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawObject_function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMapping\C24BitBMPpixel.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMapping\cBasicTextureManager.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMapping\CTextureFromBMP.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="particle_force_generators.cpp">
+      <Filter>Physics Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionListener.cpp">
+      <Filter>Physics Rigidbody</Filter>
+    </ClCompile>
+    <ClCompile Include="rbSphereEntity.cpp">
+      <Filter>Physics Rigidbody\Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cConfigReaderJSON.h">
+      <Filter>Config JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="globalThings.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="GLCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLMCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightHelper.h">
+      <Filter>Light Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightManager.h">
+      <Filter>Light Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cVAOManager.h">
+      <Filter>Meshes\VAO Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cMesh.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoxEntity.h">
+      <Filter>Physics Particles\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="cEntity.h">
+      <Filter>Physics Particles\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="cHangingChainEntity.h">
+      <Filter>Physics Particles\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="cSpinningBladeEntity.h">
+      <Filter>Physics Particles\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="cSpringParticle.h">
+      <Filter>Physics Particles\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="cTarget.h">
+      <Filter>Physics Particles\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet.h">
+      <Filter>Physics Particles\Shots</Filter>
+    </ClInclude>
+    <ClInclude Include="cCannonShot.h">
+      <Filter>Physics Particles\Shots</Filter>
+    </ClInclude>
+    <ClInclude Include="cLaser.h">
+      <Filter>Physics Particles\Shots</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\cParticle.h">
+      <Filter>Physics Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\cParticleContact.h">
+      <Filter>Physics Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\cParticleContactResolver.h">
+      <Filter>Physics Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\cParticleForceRegistry.h">
+      <Filter>Physics Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\cParticleWorld.h">
+      <Filter>Physics Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\iParticleContactGenerator.h">
+      <Filter>Physics Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\iParticleForceGenerator.h">
+      <Filter>Physics Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\particle_constraints.h">
+      <Filter>Physics Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\particle_contact_generators.h">
+      <Filter>Physics Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\random_helpers.h">
+      <Filter>Physics Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="cShaderManager.h">
+      <Filter>Shader Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sVertex_types.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMapping\C24BitBMPpixel.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMapping\cBasicTextureManager.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMapping\CTextureFromBMP.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="particle_force_generators.h">
+      <Filter>Physics Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionListener.h">
+      <Filter>Physics Rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="rbSphereEntity.h">
+      <Filter>Physics Rigidbody\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Physics Rigidbody</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Config.json">
+      <Filter>Config JSON</Filter>
+    </None>
+    <None Include="..\common\assets\shaders\fragShader_01.glsl">
+      <Filter>Shader Manager\Shaders</Filter>
+    </None>
+    <None Include="..\common\assets\shaders\geomShader.glsl">
+      <Filter>Shader Manager\Shaders</Filter>
+    </None>
+    <None Include="..\common\assets\shaders\vertShader_01.glsl">
+      <Filter>Shader Manager\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\common\assets\directional lights.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\common\assets\lights.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\common\assets\worldFile.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
